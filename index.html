@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>quote-generator</title>
+    <link type="image/png" rel="icon" href=" http://www.google.com/s2/favicons?domain=google.com" />
+    <link href="style.css" rel="stylesheet" />
+
+    <script src="https://kit.fontawesome.com/1869f8b461.js" crossorigin="anonymous"></script>
+    <script src="//developers.kakao.com/sdk/js/kakao.min.js"></script>
+  </head>
+  <body>
+    <!-- loader -->
+    <div id="loader"></div>
+    <div class="quote-container" id="quote-container">
+      <!-- quote -->
+      <div class="quote-text">
+        <i class="fas fa-quote-left"></i>
+        <p id="quote"></p>
+        <i class="fas fa-quote-right"></i>
+      </div>
+
+      <!-- author-->
+      <div class="quote-author"><span id="author"></span></div>
+      <!-- buttons -->
+      <div class="button-container">
+        <button class="button twitter-button" id="twitter" title="tweet this!">
+          <i class="fab fa-twitter"></i>
+        </button>
+        <img
+          class="button kakao-button"
+          id="kakao"
+          title="send"
+          src="https://developers.kakao.com/assets/img/about/logos/kakaolink/kakaolink_btn_medium.png"
+        />
+
+        <button class="button new-quote" id="new-quote">New quote!</button>
+      </div>
+    </div>
+    <!-- script -->
+    <script src="script.js"></script>
+  </body>
+</html>

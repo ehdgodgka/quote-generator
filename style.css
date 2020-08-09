@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Vollkorn&family=PT+Sans+Narrow&display=swap');
+html {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  min-height: 100vh;
+  background-color: #326d48;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='199' viewBox='0 0 100 199'%3E%3Cg fill='%23f7c4b5' fill-opacity='0.18'%3E%3Cpath d='M0 199V0h1v1.99L100 199h-1.12L1 4.22V199H0zM100 2h-.12l-1-2H100v2z'%3E%3C/path%3E%3C/g%3E%3C/svg%3E");
+  font-family: 'Vollkorn', serif;
+  font-weight: 500;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.quote-container {
+  width: auto;
+  max-width: 800px;
+  padding: 20px 30px;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.7);
+  box-shadow: 0 10px 10px 10px rgba(3, 29, 21, 0.459);
+}
+.quote-text {
+  font-size: 2.5rem;
+  color: rgba(54, 24, 24, 0.829);
+}
+.quote-author {
+  font-family: 'PT Sans Narrow', sans-serif;
+  font-size: 1.8rem;
+  font-weight: 200;
+  font-style: italic;
+  color: rgba(87, 69, 46, 0.76);
+}
+.long-quote {
+  font-size: 2rem;
+}
+.fa {
+  font-size: 2.2rem;
+}
+
+.button-container {
+  display: flex;
+}
+.button {
+  width: fit-content;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: 200;
+  border: none;
+  border-radius: 15px;
+  outline: none;
+  background-color: rgb(29, 29, 29);
+  color: white;
+  padding: 0.5rem 1rem;
+  box-shadow: 0 0.5rem rgba(100, 100, 100, 0.5);
+}
+.twitter-button {
+  color: rgb(0, 101, 216);
+  font-size: 1.5rem;
+}
+.twitter-button:hover {
+  color: rgb(0, 122, 170);
+}
+.kakao-button {
+  width: 50px;
+  padding: 0;
+  background-color: rgb(255, 238, 0);
+  justify-self: left;
+}
+.new-quote {
+  margin-left: auto;
+}
+.button:hover {
+  filter: brightness(150%);
+}
+.button:active {
+  transform: translateY(0.2rem);
+  box-shadow: 0 0.1rem rgba(100, 100, 100, 0.5);
+}
+
+#loader {
+  margin: 0 auto;
+  height: 2em;
+  width: 2em;
+  border: 20px solid rgba(0, 56, 77, 0.2);
+  border-top-color: rgba(0, 174, 239, 0.8);
+  border-radius: 50%;
+  animation: rotation 1s infinite linear;
+}
+
+@keyframes rotation {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(359deg);
+  }
+}
+/* Media Query: Tablet or smaller  */
+@media screen and (max-width: 1000px) {
+  .quote-container {
+    margin: 10px;
+  }
+  .quote-text {
+    font-size: 2.3rem;
+  }
+}
