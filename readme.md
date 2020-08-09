@@ -1,4 +1,6 @@
 # quote generator 
+![screenshot](/quote-genertor.png)
+
   Built with HTML, CSS and Javascript.
   referenced project ides and codes from the following course. 
 
@@ -9,4 +11,5 @@ https://academy.zerotomastery.io/p/javascript-projects
 ## feature
 - get random quote 
 - tweet 
-- share to KakaoTalk (own feature) 
+- share to KakaoTalk(own feature) 
+---
