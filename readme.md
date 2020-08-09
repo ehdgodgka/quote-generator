@@ -1,5 +1,5 @@
 # quote generator 
-![screenshot](/quote-generator.png =250x)
+![screenshot](/quote-generator.png | width=300)
 
   Built with HTML, CSS and Javascript.
   referenced project ides and codes from the following course. 
