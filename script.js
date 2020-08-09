@@ -67,7 +67,7 @@ const sendKakaoQuote = () => {
       description: `${quoteText.innerText} \n-${authorText.innerText}`,
       imageUrl: newImg,
       link: {
-        mobileWebUrl: 'https://developers.kakao.com',
+        mobileWebUrl: 'https://ehdgodgka.github.io/quote-generator/',
         androidExecParams: 'test'
       }
     }
