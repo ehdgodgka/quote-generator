@@ -55,12 +55,8 @@ const tweetQuote = () => {
 };
 
 // share quotes to KaKao
-const kakaoInit = async () => {
-  const a = await Kakao.init('4cd06358213b07d661872fc63b5cf362');
-  console.log(a);
-};
+Kakao.init('4cd06358213b07d661872fc63b5cf362');
 
-kakaoInit();
 const sendKakaoQuote = () => {
   const newImg = `https://picsum.photos/id/${Math.ceil(Math.random() * 1000)}/200`; //get random image
 

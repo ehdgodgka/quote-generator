@@ -1,6 +1,4 @@
 # quote generator 
-![screenshot](/quote-genertor.png)
-
   Built with HTML, CSS and Javascript.
   referenced project ides and codes from the following course. 
 
